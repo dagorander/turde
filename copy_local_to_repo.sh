@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#TODO: Should die if not run from within the hit repo
+#TODO: Should die if not run from within the repo
 
 # Ensure required folders exist
 mkdir -p ./home/.config/
