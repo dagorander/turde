@@ -49,3 +49,9 @@ paru -S firefox
 
 # User configurations
 # Ensure $USER is in group video
+
+# End notes
+echo "Might need these fonts:"
+echo "nerd-fonts-complete"
+echo "nerd-fonts-source-code-pro"
+echo "nerd-fonts-inter"
