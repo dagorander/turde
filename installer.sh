@@ -9,7 +9,7 @@
 sudo pacman -S paru 
 
 # System utilities
-paru -S acpi htop stress s-tui
+paru -S acpi htop stress s-tui fish
 
 # Dependencies
 paru -S rustup
