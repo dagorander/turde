@@ -48,7 +48,7 @@ ranger --copy-config=all
 paru -S firefox
 
 # User configurations
-# Ensure $USER is in group video
+sudo usermod -a -G video $USER
 
 # End notes
 echo "Might need these fonts:"
