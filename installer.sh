@@ -50,8 +50,7 @@ paru -S firefox
 # User configurations
 sudo usermod -a -G video $USER
 
-# End notes
-echo "Might need these fonts:"
-echo "nerd-fonts-complete"
-echo "nerd-fonts-source-code-pro"
-echo "nerd-fonts-inter"
+# Add fonts
+paru -S nerd-fonts-complete # Big, should have all the things? Candidate for removal later.
+# Candidate for more targeted need? "nerd-fonts-source-code-pro"
+paru -S nerd-fonts-inter # Appears needed for polybar icons
