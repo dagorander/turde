@@ -22,14 +22,12 @@ paru -S ranger python-pillow # Plus image viewer if not staying with kitty?
 
 # Development applications
 # paru -S git # Already installed on Endeavour?
+paru -S npm pip # nodejs
 
 # DE installations
 paru -S leftwm alacritty kitty dmenu feh lemonbar polybar picom
 paru -S rofi dunst trayer light slock
-# paru -S scrot imagemagick
-
-# Fonts
-# paru -S nerd-fonts-complete # maybe later, decide on exact need
+# paru -S scrot # Not sure if needed when we imagemagick was a dep 
 
 # Generic configuration commands
 ranger --copy-config=all
@@ -47,10 +45,15 @@ ranger --copy-config=all
 # DE Applications
 paru -S firefox
 
-# User configurations
+# User configuration
 sudo usermod -a -G video $USER
 
 # Add fonts
 paru -S nerd-fonts-complete # Big, should have all the things? Candidate for removal later.
 # Candidate for more targeted need? "nerd-fonts-source-code-pro"
 paru -S nerd-fonts-inter # Appears needed for polybar icons
+
+# get lunarvim, this one might not work without native bash, and needs sudo
+# wget https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh
+# ./install.sh --no-install-dependencies
+# fish-add-path ~/.local/bin # do the same for bash
