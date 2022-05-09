@@ -33,6 +33,7 @@ paru -S rofi dunst trayer light slock
 ranger --copy-config=all
 
 # DE configuration copies
+# TODO: Currently handled by independent scripts
 # .xinitrc
 # bashrc
 # .config/fish
@@ -57,3 +58,6 @@ paru -S nerd-fonts-inter # Appears needed for polybar icons
 # wget https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh
 # ./install.sh --no-install-dependencies
 # fish-add-path ~/.local/bin 
+# echo "vim.opt.relativenumber = true" >> ~/.config/lvim/config.lua
+# sed -i 's/lvim.colorscheme = "onedarker"/lvim.colorscheme = "default"/'
+
