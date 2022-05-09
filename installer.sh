@@ -55,9 +55,9 @@ paru -S nerd-fonts-complete # Big, should have all the things? Candidate for rem
 paru -S nerd-fonts-inter # Appears needed for polybar icons
 
 # get lunarvim, this one might not work without native bash, and needs sudo
-# wget https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh
-# ./install.sh --no-install-dependencies
-# fish-add-path ~/.local/bin 
-# echo "vim.opt.relativenumber = true" >> ~/.config/lvim/config.lua
-# sed -i 's/lvim.colorscheme = "onedarker"/lvim.colorscheme = "default"/'
+ wget https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh
+ ./install.sh --no-install-dependencies
+ fish-add-path ~/.local/bin 
+ echo "vim.opt.relativenumber = true" >> ~/.config/lvim/config.lua
+ sed -i 's/lvim.colorscheme = "onedarker"/lvim.colorscheme = "default"/'
 
