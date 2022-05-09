@@ -56,4 +56,4 @@ paru -S nerd-fonts-inter # Appears needed for polybar icons
 # get lunarvim, this one might not work without native bash, and needs sudo
 # wget https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh
 # ./install.sh --no-install-dependencies
-# fish-add-path ~/.local/bin # do the same for bash
+# fish-add-path ~/.local/bin 
