@@ -119,9 +119,9 @@ key = "Left"
 command = "DecreaseMainWidth"
 value = "5"
 modifier = ["modkey", "Shift"]
-key = "j"
+key = "h"
 
-[[keybind]]
+[[keybihnd]]
 command = "FocusWindowUp"
 modifier = ["modkey"]
 key = "Up"
