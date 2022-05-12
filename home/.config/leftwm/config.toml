@@ -83,9 +83,19 @@ modifier = ["modkey", "Shift"]
 key = "Up"
 
 [[keybind]]
+command = "MoveWindowUp"
+modifier = ["modkey", "Shift"]
+key = "k"
+
+[[keybind]]
 command = "MoveWindowDown"
 modifier = ["modkey", "Shift"]
 key = "Down"
+
+[[keybind]]
+command = "MoveWindowDown"
+modifier = ["modkey", "Shift"]
+key = "j"
 
 [[keybind]]
 command = "IncreaseMainWidth"
@@ -94,10 +104,22 @@ modifier = ["modkey", "Shift"]
 key = "Right"
 
 [[keybind]]
+command = "IncreaseMainWidth"
+value = "5"
+modifier = ["modkey", "Shift"]
+key = "l"
+
+[[keybind]]
 command = "DecreaseMainWidth"
 value = "5"
 modifier = ["modkey", "Shift"]
 key = "Left"
+
+[[keybind]]
+command = "DecreaseMainWidth"
+value = "5"
+modifier = ["modkey", "Shift"]
+key = "j"
 
 [[keybind]]
 command = "FocusWindowUp"
@@ -105,9 +127,19 @@ modifier = ["modkey"]
 key = "Up"
 
 [[keybind]]
+command = "FocusWindowUp"
+modifier = ["modkey"]
+key = "k"
+
+[[keybind]]
 command = "FocusWindowDown"
 modifier = ["modkey"]
 key = "Down"
+
+[[keybind]]
+command = "FocusWindowDown"
+modifier = ["modkey"]
+key = "j"
 
 [[keybind]]
 command = "NextLayout"
@@ -115,9 +147,19 @@ modifier = ["modkey", "Control"]
 key = "Up"
 
 [[keybind]]
+command = "NextLayout"
+modifier = ["modkey", "Control"]
+key = "k"
+
+[[keybind]]
 command = "PreviousLayout"
 modifier = ["modkey", "Control"]
 key = "Down"
+
+[[keybind]]
+command = "PreviousLayout"
+modifier = ["modkey", "Control"]
+key = "j"
 
 [[keybind]]
 command = "FocusWorkspaceNext"
@@ -125,9 +167,19 @@ modifier = ["modkey"]
 key = "Right"
 
 [[keybind]]
+command = "FocusWorkspaceNext"
+modifier = ["modkey"]
+key = "l"
+
+[[keybind]]
 command = "FocusWorkspacePrevious"
 modifier = ["modkey"]
 key = "Left"
+
+[[keybind]]
+command = "FocusWorkspacePrevious"
+modifier = ["modkey"]
+key = "h"
 
 [[keybind]]
 command = "GotoTag"
